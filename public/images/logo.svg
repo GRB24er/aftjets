@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9a96e"/>
+      <stop offset="50%" stop-color="#e8d5a3"/>
+      <stop offset="100%" stop-color="#c9a96e"/>
+    </linearGradient>
+    <linearGradient id="jetGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c9a96e"/>
+    </linearGradient>
+  </defs>
+  <!-- Private jet silhouette -->
+  <g transform="translate(8, 12) scale(0.7)">
+    <path d="M2 28 L18 24 L28 10 L32 10 L26 24 L52 20 L52 16 L56 16 L56 22 L26 26 L30 38 L26 38 L20 28 L2 32 Z" fill="url(#jetGrad)" opacity="0.9"/>
+  </g>
+  <!-- ATF text -->
+  <text x="52" y="38" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" fill="url(#gold)" letter-spacing="4">ATF</text>
+  <!-- JETS text -->
+  <text x="148" y="38" font-family="Arial, sans-serif" font-weight="300" font-size="16" fill="#818cf8" letter-spacing="6">JETS</text>
+  <!-- Accent line -->
+  <rect x="52" y="44" width="145" height="1" fill="url(#gold)" opacity="0.4" rx="0.5"/>
+</svg>
