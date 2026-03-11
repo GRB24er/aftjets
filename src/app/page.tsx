@@ -48,7 +48,7 @@ export default function LandingPage() {
   return (
     <div style={{background:T.bg,color:T.text,fontFamily:"'Segoe UI','Plus Jakarta Sans',system-ui,sans-serif",overflowX:"hidden"}}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:wght@300;400;500;600;700&display=swap');
         @keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
         @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
         @keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
