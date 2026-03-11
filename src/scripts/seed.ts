@@ -447,13 +447,18 @@ async function seed() {
           passportNumber: "C01RF2K47",
           seatNumber: "1A",
           mealPreference: "standard",
+          passportExpiry: new Date("2030-06-15"),
+          cabinClass: "first",
         },
       ],
       cabinClass: "first",
       status: "completed",
+      contactEmail: "christian.maier@email.com",
+      contactPhone: "+49 89 1234 5678",
       payment: {
         method: trip.payMethod,
         status: "completed",
+        amount: total,
         transactionId: txnId,
         paidAt: depDate,
         breakdown: {

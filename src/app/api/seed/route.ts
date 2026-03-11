@@ -192,9 +192,11 @@ export async function GET() {
       await Booking.create({
         bookingReference: bookingRef, user: christian._id,
         flights: [{ flight: flight._id, direction: "outbound" }],
-        passengers: [{ firstName: "Christian", lastName: "Maier", email: "christian.maier@email.com", dateOfBirth: new Date("1965-12-08"), nationality: "DE", passportNumber: "C01RF2K47", seatNumber: "1A", mealPreference: "standard" }],
+        passengers: [{ firstName: "Christian", lastName: "Maier", email: "christian.maier@email.com", dateOfBirth: new Date("1965-12-08"), nationality: "DE", passportNumber: "C01RF2K47", passportExpiry: new Date("2030-06-15"), cabinClass: "first", seatNumber: "1A", mealPreference: "standard" }],
         cabinClass: "first", status: "completed",
-        payment: { method: trip.payMethod, status: "completed", transactionId: txnId, paidAt: depDate, breakdown: { baseFare, taxes, surcharges, discount: 0, loyaltyPointsUsed: 0, total } },
+        contactEmail: "christian.maier@email.com",
+        contactPhone: "+49 89 1234 5678",
+        payment: { method: trip.payMethod, status: "completed", amount: total, transactionId: txnId, paidAt: depDate, breakdown: { baseFare, taxes, surcharges, discount: 0, loyaltyPointsUsed: 0, total } },
         totalAmount: total,
         addOns: { extraBaggage: false, seatSelection: true, loungeAccess: true, travelInsurance: true, priorityBoarding: true, mealUpgrade: true },
         loyaltyPointsEarned: pointsEarned,
