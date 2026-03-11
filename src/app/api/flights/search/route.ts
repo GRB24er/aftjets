@@ -168,6 +168,13 @@ const AP: Record<string,{c:string;co:string;la:number;lo:number;n:string}> = {
   PER:{c:"Perth",co:"Australia",la:-31.94,lo:115.97,n:"Perth"},
   AKL:{c:"Auckland",co:"New Zealand",la:-36.85,lo:174.76,n:"Auckland"},
   NAN:{c:"Nadi",co:"Fiji",la:-17.76,lo:177.44,n:"Nadi International"},
+  SVO:{c:"Moscow",co:"Russia",la:55.97,lo:37.41,n:"Sheremetyevo"},
+  DME:{c:"Moscow",co:"Russia",la:55.41,lo:37.91,n:"Domodedovo"},
+  LED:{c:"Saint Petersburg",co:"Russia",la:59.8,lo:30.26,n:"Pulkovo"},
+  VVO:{c:"Vladivostok",co:"Russia",la:43.4,lo:132.15,n:"Vladivostok International"},
+  SVX:{c:"Yekaterinburg",co:"Russia",la:56.74,lo:60.8,n:"Koltsovo"},
+  KJA:{c:"Krasnoyarsk",co:"Russia",la:56.17,lo:92.49,n:"Yemelyanovo"},
+  OVB:{c:"Novosibirsk",co:"Russia",la:55.01,lo:82.65,n:"Tolmachevo"},
 };
 
 const TZ: Record<string,string> = {
@@ -221,6 +228,8 @@ const TZ: Record<string,string> = {
   SCL:"America/Santiago",LIM:"America/Lima",
   SYD:"Australia/Sydney",MEL:"Australia/Melbourne",BNE:"Australia/Brisbane",PER:"Australia/Perth",
   AKL:"Pacific/Auckland",NAN:"Pacific/Fiji",
+  SVO:"Europe/Moscow",DME:"Europe/Moscow",LED:"Europe/Moscow",
+  VVO:"Asia/Vladivostok",SVX:"Asia/Yekaterinburg",KJA:"Asia/Krasnoyarsk",OVB:"Asia/Novosibirsk",
 };
 
 function dist(a1:number,o1:number,a2:number,o2:number){
