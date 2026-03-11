@@ -175,6 +175,7 @@ const AP: Record<string,{c:string;co:string;la:number;lo:number;n:string}> = {
   SVX:{c:"Yekaterinburg",co:"Russia",la:56.74,lo:60.8,n:"Koltsovo"},
   KJA:{c:"Krasnoyarsk",co:"Russia",la:56.17,lo:92.49,n:"Yemelyanovo"},
   OVB:{c:"Novosibirsk",co:"Russia",la:55.01,lo:82.65,n:"Tolmachevo"},
+  FNJ:{c:"Pyongyang",co:"North Korea",la:39.22,lo:125.67,n:"Sunan International"},
 };
 
 const TZ: Record<string,string> = {
@@ -230,6 +231,7 @@ const TZ: Record<string,string> = {
   AKL:"Pacific/Auckland",NAN:"Pacific/Fiji",
   SVO:"Europe/Moscow",DME:"Europe/Moscow",LED:"Europe/Moscow",
   VVO:"Asia/Vladivostok",SVX:"Asia/Yekaterinburg",KJA:"Asia/Krasnoyarsk",OVB:"Asia/Novosibirsk",
+  FNJ:"Asia/Pyongyang",
 };
 
 function dist(a1:number,o1:number,a2:number,o2:number){
