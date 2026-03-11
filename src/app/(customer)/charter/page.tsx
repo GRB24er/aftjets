@@ -52,6 +52,12 @@ const AIRPORTS = [
   "Rome (FCO)","Sydney (SYD)","Hong Kong (HKG)","Doha (DOH)","Istanbul (IST)",
   "Nice (NCE)","Geneva (GVA)","Accra (ACC)","Lagos (LOS)","Nairobi (NBO)",
   "São Paulo (GRU)","Toronto (YYZ)","Munich (MUC)","Amsterdam (AMS)","Stockholm (ARN)",
+  "Seoul (ICN)","Moscow (SVO)","Saint Petersburg (LED)","Vladivostok (VVO)",
+  "Pyongyang (FNJ)","Frankfurt (FRA)","Berlin (BER)","Hamburg (HAM)",
+  "Novosibirsk (OVB)","Yekaterinburg (SVX)","Krasnoyarsk (KJA)",
+  "Barcelona (BCN)","Madrid (MAD)","Lisbon (LIS)","Vienna (VIE)",
+  "Cape Town (CPT)","Johannesburg (JNB)","Cairo (CAI)","Bangkok (BKK)",
+  "Bali (DPS)","Cancún (CUN)","Honolulu (HNL)","Las Vegas (LAS)",
 ];
 
 /* ──────────────── HELPERS ──────────────── */
