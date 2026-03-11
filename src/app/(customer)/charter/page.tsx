@@ -146,7 +146,7 @@ export default function CharterPage(){
     if(!fromAP||!toAP||!depDate)return;
     setSearching(true);setFlights([]);setSearchDone(false);
     const fromCode=fromAP.match(/\((\w+)\)/)?.[1]||"";const toCode=toAP.match(/\((\w+)\)/)?.[1]||"";
-    try{const r=await fetch(`/api/flights/search?from=${fromCode}&to=${toCode}&date=${depDate}&cabinClass=first`);const d=await r.json();if(d.success)setFlights(d.data.flights||[])}catch{}
+    try{const r=await fetch(`/api/flights/search?from=${fromCode}&to=${toCode}&departDate=${depDate}&cabinClass=first`);const d=await r.json();if(d.success)setFlights(d.data.flights||[])}catch{}
     setSearching(false);setSearchDone(true);
   };
 
